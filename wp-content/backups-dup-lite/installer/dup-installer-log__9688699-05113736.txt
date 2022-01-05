@@ -1,0 +1,1188 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 02:54:19
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 8.0.13                                |8.0.3
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2022-01-05 11:37:36
+WP VERSION__________: 5.8.2
+DUP VERSION_________: 1.4.3
+DB__________________: 5.7.23
+DB TABLES___________: 79
+DB ROWS_____________: 11,758
+DB FILE SIZE________: 23.05MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 8.0.3 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Win64) OpenSSL/1.1.1j PHP/8.0.3
+DOC ROOT____________: "C:/xampp/htdocs/theclassiccollarcompany"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://localhost/theclassiccollarcompany/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/theclassiccollarcompany/20220105_theclassiccollarcompany_[HASH]_20220105113736_archive.zip"
+SIZE________________: 209.77MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/theclassiccollarcompany/20220105_theclassiccollarcompany_[HASH]_20220105113736_archive.zip"
+SIZE________________: 209.77MBFile timestamp set to Current: 2022-01-05 14:55:49
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 02:55:49 - RUNTIME: 89.9014 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 03:01:51
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.18 -- Build Server: 5.7.23
+FILE SIZE:	dup-database__[HASH].sql (12.81MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/theclassiccollarcompany/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	714
+
+44g_actionscheduler_actions: (2163)
+44g_actionscheduler_claims: (0)
+44g_actionscheduler_groups: (4)
+44g_actionscheduler_logs: (6481)
+44g_aioseo_notifications: (0)
+44g_aioseo_posts: (2)
+44g_cartflows_ca_cart_abandonment: (2)
+44g_cartflows_ca_email_history: (3)
+44g_cartflows_ca_email_templates: (3)
+44g_cartflows_ca_email_templates_meta: (15)
+44g_ce4wp_abandoned_checkout: (0)
+44g_ce4wp_contacts: (0)
+44g_commentmeta: (4)
+44g_comments: (29)
+44g_duplicator_packages: (0)
+44g_links: (0)
+44g_mailchimp_carts: (0)
+44g_mailchimp_jobs: (0)
+44g_nextend2_image_storage: (7)
+44g_nextend2_section_storage: (3)
+44g_nextend2_smartslider3_generators: (0)
+44g_nextend2_smartslider3_sliders: (3)
+44g_nextend2_smartslider3_sliders_xref: (2)
+44g_nextend2_smartslider3_slides: (9)
+44g_options: (1078)
+44g_postmeta: (3442)
+44g_posts: (492)
+44g_term_relationships: (241)
+44g_term_taxonomy: (68)
+44g_termmeta: (77)
+44g_terms: (68)
+44g_usermeta: (339)
+44g_users: (7)
+44g_wc_admin_note_actions: (40)
+44g_wc_admin_notes: (38)
+44g_wc_category_lookup: (5)
+44g_wc_customer_lookup: (3)
+44g_wc_download_log: (0)
+44g_wc_order_coupon_lookup: (3)
+44g_wc_order_product_lookup: (13)
+44g_wc_order_stats: (7)
+44g_wc_order_tax_lookup: (1)
+44g_wc_product_meta_lookup: (35)
+44g_wc_reserved_stock: (1)
+44g_wc_tax_rate_classes: (2)
+44g_wc_webhooks: (0)
+44g_wcfm_marketplace_orders: (0)
+44g_wcfm_marketplace_orders_meta: (0)
+44g_wcfm_marketplace_product_multivendor: (0)
+44g_wcfm_marketplace_refund_request: (0)
+44g_wcfm_marketplace_refund_request_meta: (0)
+44g_wcfm_marketplace_reverse_withdrawal: (0)
+44g_wcfm_marketplace_reverse_withdrawal_meta: (0)
+44g_wcfm_marketplace_review_rating_meta: (0)
+44g_wcfm_marketplace_reviews: (0)
+44g_wcfm_marketplace_reviews_response: (0)
+44g_wcfm_marketplace_reviews_response_meta: (0)
+44g_wcfm_marketplace_shipping_zone_locations: (0)
+44g_wcfm_marketplace_shipping_zone_methods: (0)
+44g_wcfm_marketplace_store_taxonomies: (0)
+44g_wcfm_marketplace_vendor_ledger: (0)
+44g_wcfm_marketplace_withdraw_request: (0)
+44g_wcfm_marketplace_withdraw_request_meta: (0)
+44g_woo_shippment_provider: (306)
+44g_woocommerce_api_keys: (1)
+44g_woocommerce_attribute_taxonomies: (2)
+44g_woocommerce_downloadable_product_permissions: (0)
+44g_woocommerce_log: (0)
+44g_woocommerce_order_itemmeta: (139)
+44g_woocommerce_order_items: (18)
+44g_woocommerce_payment_tokenmeta: (0)
+44g_woocommerce_payment_tokens: (0)
+44g_woocommerce_sessions: (112)
+44g_woocommerce_shipping_zone_locations: (1)
+44g_woocommerce_shipping_zone_methods: (2)
+44g_woocommerce_shipping_zones: (1)
+44g_woocommerce_tax_rate_locations: (4)
+44g_woocommerce_tax_rates: (2)
+44g_wpforms_tasks_meta: (828)
+Removed '242' cache/transient rows
+
+INSERT DATA RUNTIME: 5.0045 sec.
+STEP-2 COMPLETE @ 03:01:56 - RUNTIME: 5.0434 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 03:02:07
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "The Classic Collar Company"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home3/techhomi/public_html/theclassiccollarcompany"
+path_new______________: "C:/xampp/htdocs/theclassiccollarcompany"
+siteurl_______________: "https://localhost/theclassiccollarcompany"
+url_old_______________: "https://theclassiccollarcompany.com"
+url_new_______________: "https://localhost/theclassiccollarcompany"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: true
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "44g_actionscheduler_actions"_____________________[ROWS:  2163][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_actionscheduler_claims"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_actionscheduler_groups"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_actionscheduler_logs"________________________[ROWS:  6481][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_aioseo_notifications"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_aioseo_posts"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_cartflows_ca_cart_abandonment"_______________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_cartflows_ca_email_history"__________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_cartflows_ca_email_templates"________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_cartflows_ca_email_templates_meta"___________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_ce4wp_abandoned_checkout"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_ce4wp_contacts"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_commentmeta"_________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_comments"____________________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_duplicator_packages"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_links"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_mailchimp_carts"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_mailchimp_jobs"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_nextend2_image_storage"______________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_nextend2_section_storage"____________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_nextend2_smartslider3_generators"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_nextend2_smartslider3_sliders"_______________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_nextend2_smartslider3_sliders_xref"__________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_nextend2_smartslider3_slides"________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_options"_____________________________________[ROWS:  1078][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_postmeta"____________________________________[ROWS:  3442][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_posts"_______________________________________[ROWS:   492][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_term_relationships"__________________________[ROWS:   241][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_term_taxonomy"_______________________________[ROWS:    68][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_termmeta"____________________________________[ROWS:    77][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_terms"_______________________________________[ROWS:    68][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_usermeta"____________________________________[ROWS:   339][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_users"_______________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_wc_admin_note_actions"_______________________[ROWS:    40][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_wc_admin_notes"______________________________[ROWS:    38][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_wc_category_lookup"__________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_wc_customer_lookup"__________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_wc_download_log"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wc_order_coupon_lookup"______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_wc_order_product_lookup"_____________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_wc_order_stats"______________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_wc_order_tax_lookup"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_wc_product_meta_lookup"______________________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_wc_reserved_stock"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_wc_tax_rate_classes"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_wc_webhooks"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_orders"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_orders_meta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_product_multivendor"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_refund_request"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_refund_request_meta"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_reverse_withdrawal"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_reverse_withdrawal_meta"____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_review_rating_meta"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_reviews"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_reviews_response"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_reviews_response_meta"______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_shipping_zone_locations"____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_shipping_zone_methods"______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_store_taxonomies"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_vendor_ledger"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_withdraw_request"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_wcfm_marketplace_withdraw_request_meta"______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_woo_shippment_provider"______________________[ROWS:   306][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_woocommerce_api_keys"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_woocommerce_attribute_taxonomies"____________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_woocommerce_log"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_woocommerce_order_itemmeta"__________________[ROWS:   139][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_woocommerce_order_items"_____________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_woocommerce_payment_tokenmeta"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_woocommerce_payment_tokens"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "44g_woocommerce_sessions"________________________[ROWS:   112][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_woocommerce_shipping_zone_locations"_________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_woocommerce_shipping_zone_methods"___________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_woocommerce_shipping_zones"__________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_woocommerce_tax_rate_locations"______________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_woocommerce_tax_rates"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+
+EVALUATE TABLE: "44g_wpforms_tasks_meta"__________________________[ROWS:   828][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/techhomi/public_html/theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  2:"\/home3\/techhomi\/public_html\/theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  3:"%2Fhome3%2Ftechhomi%2Fpublic_html%2Ftheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  4:"\home3\techhomi\public_html\theclassiccollarcompany" => "C:/xampp/htdocs/theclassiccollarcompany"
+	SEARCH  5:"\\home3\\techhomi\\public_html\\theclassiccollarcompany" => "C:\/xampp\/htdocs\/theclassiccollarcompany"
+	SEARCH  6:"%5Chome3%5Ctechhomi%5Cpublic_html%5Ctheclassiccollarcompany" => "C%3A%2Fxampp%2Fhtdocs%2Ftheclassiccollarcompany"
+	SEARCH  7:"//theclassiccollarcompany.com" ===================> "//localhost/theclassiccollarcompany"
+	SEARCH  8:"\/\/theclassiccollarcompany.com" =================> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH  9:"%2F%2Ftheclassiccollarcompany.com" ===============> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 10:"//www.theclassiccollarcompany.com" ===============> "//localhost/theclassiccollarcompany"
+	SEARCH 11:"\/\/www.theclassiccollarcompany.com" =============> "\/\/localhost\/theclassiccollarcompany"
+	SEARCH 12:"%2F%2Fwww.theclassiccollarcompany.com" ===========> "%2F%2Flocalhost%2Ftheclassiccollarcompany"
+	SEARCH 13:"http://localhost/theclassiccollarcompany" ========> "https://localhost/theclassiccollarcompany"
+	SEARCH 14:"http:\/\/localhost\/theclassiccollarcompany" =====> "https:\/\/localhost\/theclassiccollarcompany"
+	SEARCH 15:"http%3A%2F%2Flocalhost%2Ftheclassiccollarcompany" => "https%3A%2F%2Flocalhost%2Ftheclassiccollarcompany"
+--------------------------------------
+SCANNED:	Tables:79 	|	 Rows:16106 	|	 Cells:103822 
+UPDATED:	Tables:9 	|	 Rows:573 	|	 Cells:626 
+ERRORS:		0 
+RUNTIME:	1.233500 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE WP_CACHE true
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 03:02:09 - RUNTIME: 1.3473 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
